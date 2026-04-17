@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Model Specifications - JBL Headphones</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+  <link rel="icon" type="img/favicon.png" sizes="32x32" href="img/favicon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://via.placeholder.com/180x180/FF8C00/000000?text=JBL">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="models.css">
+</head>
+<body>
+  <header class="header" id="header">
+    <div class="nav container">
+      <a href="index.html" class="logo">
+        <i class="ri-volume-fill"></i>
+        JBL
+      </a>
+
+      <button class="nav__toggle" id="nav-toggle" aria-label="Toggle menu">
+        <i class="ri-menu-line"></i>
+      </button>
+
+      <nav>
+        <ul id="primary-navigation" class="nav__list" data-visible="false">
+          <li><a href="index.html" class="nav__link">Home</a></li>
+          <li><a href="about.html" class="nav__link">About</a></li>
+          <li><a href="favorites.html" class="nav__link">Favorites</a></li>
+          <li><a href="models.html" class="nav__link active">Models</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="model section" id="model" data-aos="fade-up">
+      <h2 class="section__title">Model Specifications</h2>
+
+      <div class="model__container container">
+        <div class="model__img-box" data-aos="zoom-in" data-aos-delay="200">
+          <div class="model__img-float">
+            <img src="img/model-img.png" class="model__img" alt="Black JBL headphones">
+          </div>
+
+          <article class="spec spec--comfort" aria-label="Best comfort">
+            <span class="spec__label">Best Comfort</span>
+            <span class="spec__line"></span>
+            <span class="spec__dot"></span>
+          </article>
+
+          <article class="spec spec--adjustment" aria-label="Easy adjustment">
+            <span class="spec__dot"></span>
+            <span class="spec__line"></span>
+            <span class="spec__label">Easy Adjustment</span>
+          </article>
+
+          <article class="spec spec--audio" aria-label="Custom audio">
+            <span class="spec__dot"></span>
+            <span class="spec__line"></span>
+            <span class="spec__label">Custom Audio</span>
+          </article>
+
+          <article class="spec spec--charge" aria-label="Fast charge">
+            <span class="spec__label">Fast Charge</span>
+            <span class="spec__line"></span>
+            <span class="spec__dot"></span>
+          </article>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <section class="site-extras">
+    <div class="site-extras__inner container">
+      <div class="site-extras__brands">
+        <div class="site-extras__brands-track">
+          <img src="img/sponsor-1.png" alt="Apple">
+          <img src="img/sponsor-2.png" alt="Spotify">
+          <img src="img/sponsor-3.png" alt="Amazon">
+          <img src="img/sponsor-4.png" alt="YouTube">
+          <img src="img/sponsor-1.png" alt="" aria-hidden="true">
+          <img src="img/sponsor-2.png" alt="" aria-hidden="true">
+          <img src="img/sponsor-3.png" alt="" aria-hidden="true">
+          <img src="img/sponsor-4.png" alt="" aria-hidden="true">
+        </div>
+        <a href="favorites.html" class="site-pill-button site-extras__brands-cta">
+          <span>Buy Now</span>
+          <i class="ri-arrow-right-circle-fill"></i>
+        </a>
+      </div>
+
+      <div class="site-extras__grid">
+        <a href="index.html" class="site-extras__logo">JBL</a>
+
+        <div class="site-extras__links">
+          <h3>Navigation</h3>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="favorites.html">Favorites</a>
+          <a href="models.html">Models</a>
+        </div>
+
+        <div class="site-extras__links">
+          <h3>Support</h3>
+          <a href="about.html">Product Help</a>
+          <a href="about.html">Register</a>
+          <a href="about.html">Updates</a>
+          <a href="about.html">Provides</a>
+        </div>
+
+        <div class="site-extras__newsletter">
+          <form class="site-extras__form">
+            <input type="email" placeholder="Email" aria-label="Email">
+            <button type="submit">Subscribe <i class="ri-send-plane-fill"></i></button>
+          </form>
+
+          <div class="site-extras__socials">
+            <a href="#" aria-label="Instagram"><i class="ri-instagram-fill"></i></a>
+            <a href="#" aria-label="Facebook"><i class="ri-facebook-circle-fill"></i></a>
+            <a href="#" aria-label="YouTube"><i class="ri-youtube-fill"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 JBL Clone. All rights reserved. | Made for web developers</p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+  <script src="main.js"></script>
+</body>
+</html>
+
